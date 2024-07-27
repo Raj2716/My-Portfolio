@@ -220,12 +220,13 @@ body {
         0 0 100px cyan, 0 0 200px cyan
 }
 
-@media (max-width: 768px) {
-    .btn-box{
+.btn-box {
         display: block;
-    }
-
-}
+        width: auto;
+        margin: 10px auto;
+        padding: 14px 30px;
+        font-size: 18px;
+        text-align: center;
 
 .about {
     display: grid;
