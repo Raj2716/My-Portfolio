@@ -583,7 +583,12 @@ section{
             stroke-dashoffset: -1;
         }
     }
-    
+    @media screen and (max-width: 768px) {
+    .radial-bars .radial-bar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
     .path {
         stroke-width: 10;
         stroke: #0ef;
@@ -675,7 +680,7 @@ section{
 
     @media (max-width: 768px) {
         .main-text h2{
-            margin-top: 80%;
+            margin-top: 250%;
         }
 
     }
