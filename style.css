@@ -190,7 +190,7 @@ body {
 
 
     .home-content p {
-        margin-top: 200%;
+        margin-top: 250%;
         font-size: 16px;
         padding:0 10px;
     }
@@ -321,8 +321,7 @@ body {
 }
 @media (max-width: 768px) {
     .heading2{
-        margin-top:200%;
-        margin-left: -1000%;
+        margin-top:250%;
         margin-bottom: 50px;
     }
 
