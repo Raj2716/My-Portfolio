@@ -220,6 +220,12 @@ body {
         0 0 100px cyan, 0 0 200px cyan
 }
 
+@media (max-width: 768px) {
+    .btn-box{
+        display: block;
+    }
+
+}
 
 .about {
     display: grid;
@@ -309,7 +315,7 @@ body {
 }
 @media (max-width: 768px) {
     .heading2{
-        margin-top:200%;
+        margin-top:300%;
         margin-left: -100%;
         margin-bottom: 50px;
     }
